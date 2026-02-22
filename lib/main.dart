@@ -3,7 +3,7 @@ import 'core/theme/app_theme.dart';
 import 'features/auth/screens/splash_screen.dart';
 import 'features/auth/screens/login_screen.dart';
 import 'features/dashboard/screens/dashboard_screen.dart';
-
+import 'features/products/screens/products_screen.dart';
 void main() {
   runApp(const ITQANPOS());
 }
@@ -20,6 +20,7 @@ class ITQANPOS extends StatelessWidget {
       routes: {
         "/": (context) => const SplashScreen(),
         "/login": (context) => const LoginScreen(),
+        "/products": (context) => const ProductsScreen(),
         "/dashboard": (context) => const DashboardScreen(),
       },
     );
